@@ -1,3 +1,4 @@
+# mainly taken from RusselsTeap0t's package.use!
 # SYSTEM PACKAGES #
 sys-apps/portage ipc 				# these are needed
 sys-apps/openrc sysv-utils			# for shutdown, reboot, halt, etc etc...
