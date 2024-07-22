@@ -6,7 +6,7 @@ sys-devel/gcc nls cxx 				# these are defaults for gcc
 sys-libs/glibc multiarch 			# this increases performance
 dev-libs/ncurses tinfo 				# needed to recognize terminal
 sys-kernel/linux-firmware savedconfig redistributable compress-xz # needed for nvidia-firmware
-sys-kernel/zen-sources symlink			# zen deez nets
+sys-kernel/gentoo-sources experimental symlink  # needed to optimize for our cpu
 sys-apps/util-linux su pam suid 		# for root login
 x11-drivers/nvidia-drivers driver modules static-libs # all of them needed
 sys-fs/fuse suid
