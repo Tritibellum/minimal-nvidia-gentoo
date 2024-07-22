@@ -1,0 +1,2 @@
+# This unmasks the zen source kernel, if you want to use a stable kernel, then don't use this file.
+sys-kernel/zen-sources ~amd64
