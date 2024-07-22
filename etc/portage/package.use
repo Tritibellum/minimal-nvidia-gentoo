@@ -1,4 +1,3 @@
-# mainly taken from RusselsTeap0t's package.use!
 # SYSTEM PACKAGES #
 sys-apps/portage ipc 				# these are needed
 sys-apps/openrc sysv-utils			# for shutdown, reboot, halt, etc etc...
@@ -7,7 +6,7 @@ sys-devel/gcc nls cxx 				# these are defaults for gcc
 sys-libs/glibc multiarch 			# this increases performance
 dev-libs/ncurses tinfo 				# needed to recognize terminal
 sys-kernel/linux-firmware savedconfig redistributable compress-xz # needed for nvidia-firmware
-sys-kernel/zen-sources symlink			# zen kernel (for performance)
+sys-kernel/zen-sources symlink			# zen deez nets
 sys-apps/util-linux su pam suid 		# for root login
 x11-drivers/nvidia-drivers driver modules static-libs # all of them needed
 sys-fs/fuse suid
@@ -47,3 +46,38 @@ sys-libs/libunwind static-libs
 # place all necessary use flags for packages down below:
 #
 # ------------------------------------------------------
+
+# Firewall
+net-firewall/ufw ipv6
+net-firewall/iptables netlink conntrack
+
+# Network
+net-misc/connman iptables wifi tools
+net-wireless/wpa_supplicant tkip dbus
+
+# Admin Tools
+app-admin/doas pam persist
+
+# Audio
+media-video/pipewire sound-server pipewire-alsa
+
+# Window Manager (awesomewm)
+x11-libs/gdk-pixbuf introspection
+x11-libs/pango introspection
+x11-base/xorg-server suid -minimal 			# cannot use opengl with minimal flag being enabled
+media-gfx/imagemagick png
+dev-libs/libpcre2 unicode
+x11-libs/cairo glib
+
+# Terminal Emulator
+x11-terms/st savedconfig
+
+# Firefox
+www-client/firefox-bin ffmpeg
+net-libs/nodejs -system-icu -system-ssl
+media-libs/libvpx postproc
+media-libs/libpng apng
+
+# Discord
+app-text/xmlto text
+app-crypt/gcr gtk
