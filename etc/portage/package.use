@@ -66,7 +66,7 @@ media-video/pipewire sound-server pipewire-alsa
 # Window Manager (awesomewm)
 x11-libs/gdk-pixbuf introspection
 x11-libs/pango introspection
-x11-base/xorg-server suid -minimal 			# cannot use opengl with minimal flag being enabled
+x11-base/xorg-server suid -minimal 			# cannot use GLX with minimal flag being enabled: https://forums.gentoo.org/viewtopic-p-8711645.html
 media-gfx/imagemagick png
 dev-libs/libpcre2 unicode
 x11-libs/cairo glib
