@@ -1,0 +1,7 @@
+# Useless packages (bloatful indeed...)
+-*sys-apps/man-pages
+-*virtual/man 
+-*acct-user/man
+-*sys-apps/man-db
+-*sys-apps/net-tools
+-*net-print/cups

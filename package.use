@@ -1,0 +1,83 @@
+# SYSTEM PACKAGES #
+sys-apps/portage ipc 				# these are needed
+sys-apps/openrc sysv-utils			# for shutdown, reboot, halt, etc etc...
+dev-lang/perl -minimal 				# you can't use perl installation scripts with minimal
+sys-devel/gcc nls cxx 				# these are defaults for gcc
+sys-libs/glibc multiarch 			# this increases performance
+dev-libs/ncurses tinfo 				# needed to recognize terminal
+sys-kernel/linux-firmware savedconfig redistributable compress-xz # needed for nvidia-firmware
+sys-kernel/zen-sources symlink			# zen deez nets
+sys-apps/util-linux su pam suid 		# for root login
+x11-drivers/nvidia-drivers driver modules static-libs # all of them needed
+sys-fs/fuse suid
+sys-fs/e2fsprogs tools				# ext4 fsck tool
+sys-apps/systemd-utils tmpfiles			# dependency
+net-misc/curl ssl openssl curl_ssl_openssl 	# needed for cmake
+dev-vcs/git curl				# needed for git clone
+dev-libs/glib mime 				# not recommended to disable by package
+dev-lang/python ensurepip ssl sqlite ncurses 	# needed as dependency
+dev-libs/nettle gmp				# dependency (gnutls)
+sys-apps/coreutils hostname			# build hostname program
+
+# DEFAULT APPS (these are default apps for Gentoo)#
+app-alternatives/awk gawk
+app-alternatives/bzip2 reference 
+app-alternatives/gzip reference 
+app-alternatives/sh bash 
+app-alternatives/tar gnu 
+app-alternatives/yacc bison 
+app-alternatives/lex flex
+app-alternatives/bc gnu 
+app-alternatives/cpio gnu 
+app-alternatives/ninja reference
+
+# FONT RENDERING (these are basically needed for *all* apps) #
+media-libs/freetype harfbuzz adobe-cff cleartype-hinting truetype png
+media-libs/harfbuzz glib icu truetype cairo graphite introspection
+
+# CLANG ENVIRONMENT (needed for compiling firefox or other PGO programs) #
+sys-devel/clang-runtime compiler-rt sanitize
+sys-devel/clang-common default-compiler-rt default-lld
+sys-libs/compiler-rt-sanitizers profile orc
+sys-libs/libunwind static-libs
+
+# WORLD PACKAGES #
+#
+# place all necessary use flags for packages down below:
+#
+# ------------------------------------------------------
+
+# Firewall
+net-firewall/ufw ipv6
+net-firewall/iptables netlink conntrack
+
+# Network
+net-misc/connman iptables wifi tools
+net-wireless/wpa_supplicant tkip dbus
+
+# Admin Tools
+app-admin/doas pam persist
+
+# Audio
+media-video/pipewire sound-server pipewire-alsa
+
+# Window Manager (awesomewm)
+x11-libs/gdk-pixbuf introspection
+x11-libs/pango introspection
+x11-base/xorg-server suid 			# we don't need a login session :3
+media-gfx/imagemagick png
+dev-libs/libpcre2 unicode
+x11-libs/cairo glib
+
+# Terminal Emulator
+x11-terms/st savedconfig
+
+# Firefox
+www-client/firefox-bin ffmpeg
+net-libs/nodejs -system-icu -system-ssl
+media-libs/libvpx postproc
+media-libs/libpng apng
+
+# Discord
+app-text/xmlto text
+app-crypt/gcr gtk
