@@ -1,2 +1,3 @@
-# This unmasks the zen source kernel, if you want to use a stable kernel, then don't use this file.
-sys-kernel/zen-sources ~amd64
+# This unmasks the latest (experimental) linux kernel, if you want to use a stable kernel, then don't use this file.
+# Feel free to switch this to zen-sources instead. (keep in mind to change flags in package.use)
+sys-kernel/gentoo-sources ~amd64
