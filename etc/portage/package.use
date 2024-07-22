@@ -47,38 +47,3 @@ sys-libs/libunwind static-libs
 # place all necessary use flags for packages down below:
 #
 # ------------------------------------------------------
-
-# Firewall
-net-firewall/ufw ipv6
-net-firewall/iptables netlink conntrack
-
-# Network
-net-misc/connman iptables wifi tools
-net-wireless/wpa_supplicant tkip dbus
-
-# Admin Tools
-app-admin/doas pam persist
-
-# Audio
-media-video/pipewire sound-server pipewire-alsa
-
-# Window Manager (awesomewm)
-x11-libs/gdk-pixbuf introspection
-x11-libs/pango introspection
-x11-base/xorg-server suid 			# we don't need a login session :3
-media-gfx/imagemagick png
-dev-libs/libpcre2 unicode
-x11-libs/cairo glib
-
-# Terminal Emulator
-x11-terms/st savedconfig
-
-# Firefox
-www-client/firefox-bin ffmpeg
-net-libs/nodejs -system-icu -system-ssl
-media-libs/libvpx postproc
-media-libs/libpng apng
-
-# Discord
-app-text/xmlto text
-app-crypt/gcr gtk
