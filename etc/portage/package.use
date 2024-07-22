@@ -47,6 +47,8 @@ sys-libs/libunwind static-libs
 #
 # ------------------------------------------------------
 
+## This is my personal stuff, you can remove it or leave it as is.
+
 # Firewall
 net-firewall/ufw ipv6
 net-firewall/iptables netlink conntrack
