@@ -1,8 +1,9 @@
-# Useless profile-masked packages (bloatful indeed...)
+### Useless profile-masked packages ###
+
+# MAN
 -*sys-apps/man-pages
 -*virtual/man 
 -*acct-user/man
 -*sys-apps/man-db
+# NET-TOOLS
 -*sys-apps/net-tools
-# for some reason net-im/discord asked me to download cups lol
-# -*net-print/cups 
