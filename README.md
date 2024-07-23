@@ -1,4 +1,4 @@
-# Minimal Nvidia + AMD gentoo linux
+# Minimal and Performant Nvidia + AMD gentoo linux
 
 WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
