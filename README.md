@@ -1,4 +1,4 @@
-# gentoo-configs
+# Minimal Nvidia + AMD gentoo linux
 
 WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
