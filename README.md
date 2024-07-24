@@ -2,7 +2,8 @@
 
 WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
-this is my minimal nvidia gpu + amd cpu gentoo configuration files, meant to be kept minimal in disk, memory usage, and portage packages to compile.
+this is my minimal nvidia gpu + amd cpu gentoo configuration files, meant to be kept minimal in disk, memory usage, and portage packages to compile, while also making sure to keep as perfomant as possible.
+
 with the configurations above (and additional steps to remove all bloat), will give you <300 MiBs in memory usage (using "free -m", not neofetch), aswell as ~300 packages in total (depending on what steps you want to take).
 
 for the kernel, i am using cachyos, which gives some performance boost compared to other kernels (you can use linux-tkg aswell)
