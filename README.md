@@ -4,7 +4,7 @@
 
 - Minimal System
     - USE="-* ..."
-    - Debloater (Available on make.conf
+    - Debloater (Available on make.conf)
     - Sinit init system
     - Minimal Kernel Configuration
     - Around 300 MiBs !
