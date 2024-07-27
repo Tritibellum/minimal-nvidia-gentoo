@@ -13,7 +13,6 @@
     - CachyOS kernel and sysctl
     - Support for NVIDIA open-source (above GTX +1650)
     - Compiler optimization (Available on make.conf)
-    - Using Wayland
 
 - Desktop Enviroment
     - Sway (It is a simple, i3-based wayland compositor, that's not too ram-hungry)
