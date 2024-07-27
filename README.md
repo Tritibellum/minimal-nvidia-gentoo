@@ -16,7 +16,7 @@
     - Using Wayland
 
 - Desktop Enviroment
-    - Sway (It is a simple, i3-based wayland compositor, that's not to reliant on resources)
+    - Sway (It is a simple, i3-based wayland compositor, that's not too ram-hungry)
 
 ## WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
