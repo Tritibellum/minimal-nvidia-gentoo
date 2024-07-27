@@ -1,19 +1,30 @@
 # Minimal and Performant Nvidia + AMD gentoo linux
 
-WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
+##FEATURES (STILL UNDERCONSTRUCTION)
 
-this is my minimal nvidia gpu + amd cpu gentoo configuration files, meant to be kept minimal in disk, memory usage, and portage packages to compile, while also making sure to keep as perfomant as possible.
+- Minimal System
+    - USE="-* ..."
+    - Debloater (-gc-sections + -fdata-sections + -ffunction-sections)
+    - Sinit init system
+    - Minimal Kernel Configuration
+    - Around 300 MiBs !
 
-with the configurations above (and additional steps to remove all bloat), will give you <300 MiBs in memory usage (using "free -m", not neofetch), aswell as ~300 packages in total (depending on what steps you want to take).
+- Perfomannt System
+    - CachyOS kernel (-O3)
+    - Support for NVIDIA (above GTX +1650)
+    - Compiler optimization (Avaliable on make.conf)
+    - Using Wayland
 
-for the kernel, i am using cachyos, which gives some performance boost compared to other kernels (you can use linux-tkg aswell)
+- Desktop Enviroment
+    - Sway
 
-## shoutout
+##WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
+
+this is my minimal nvidia gpu + amd cpu gentoo configuration files, meant to be kept minimal in disk, memory usage, and portage packages to compile, while also making sure to keep as perfomant as possible!
+everything that i will be doing will be kept in this github repository, to backup most of the settings i come upon and to redo everything when i need to.
+
+## shoutout page
 btw shoutout to RusselsTeap0t for making a similar guide for this already
 https://www.reddit.com/r/Gentoo/comments/150r74m/guide_hyprland_nvidia_extremely_minimal_gentoo/
 
-you can follow his guide for more information (the guide is nvidia gpu + **intel cpu**)
-
-# TODO
-- dinit init system
-- cachyos kernel
+you can follow his guide for more information (beware that his guide is for **intel cpu** users!)
