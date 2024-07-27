@@ -27,6 +27,6 @@ everything that i will be doing will be kept in this github repository, to backu
 shoutout to [RusselsTeap0t](https://www.reddit.com/r/Gentoo/comments/150r74m/guide_hyprland_nvidia_extremely_minimal_gentoo/
 ) for making a minimal nvidia gentoo guide (beware that the guide is for **intel cpu** users!)
 
-shoutout to [Andrey0189](https://github.com/Andrey0189/sinit-scripts) for the sinit scripts/install
+shoutout to [Andrey0189](https://github.com/Andrey0189/sinit-scripts) for the sinit scripts/install (it is very customizable)
 
 
