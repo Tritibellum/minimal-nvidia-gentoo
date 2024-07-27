@@ -4,15 +4,15 @@
 
 - Minimal System
     - USE="-* ..."
-    - Debloater (-gc-sections + -fdata-sections + -ffunction-sections)
+    - Debloater (Available on make.conf
     - Sinit init system
     - Minimal Kernel Configuration
     - Around 300 MiBs !
 
 - Perfomannt System
     - CachyOS kernel (-O3)
-    - Support for NVIDIA (above GTX +1650)
-    - Compiler optimization (Avaliable on make.conf)
+    - Support for NVIDIA open-source (above GTX +1650)
+    - Compiler optimization (Available on make.conf)
     - Using Wayland
 
 - Desktop Enviroment
