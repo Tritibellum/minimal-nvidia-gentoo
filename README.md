@@ -16,7 +16,7 @@
     - Using Wayland
 
 - Desktop Enviroment
-    - Sway
+    - Sway (It is a simple, i3-based wayland compositor, that's not to reliant on resources)
 
 ## WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
@@ -29,4 +29,4 @@ shoutout to [RusselsTeap0t](https://www.reddit.com/r/Gentoo/comments/150r74m/gui
 
 shoutout to [Andrey0189](https://github.com/Andrey0189/sinit-scripts) for the sinit scripts/install
 
-QED. Tritibellum
+
