@@ -10,7 +10,7 @@
     - Around 300 MiBs !
 
 - Perfomannt System
-    - CachyOS kernel and sysctl
+    - CachyOS kernel and /libs configurations
     - Support for NVIDIA open-source (above GTX +1650)
     - Compiler optimization (Available on make.conf)
 
