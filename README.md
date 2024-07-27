@@ -10,7 +10,7 @@
     - Around 300 MiBs !
 
 - Perfomannt System
-    - CachyOS kernel (-O3)
+    - CachyOS kernel and sysctl
     - Support for NVIDIA open-source (above GTX +1650)
     - Compiler optimization (Available on make.conf)
     - Using Wayland
@@ -22,6 +22,8 @@
 
 this is my minimal nvidia gpu + amd cpu gentoo configuration files, meant to be kept minimal in disk, memory usage, and portage packages to compile, while also making sure to keep as perfomant as possible!
 everything that i will be doing will be kept in this github repository, to backup most of the settings i come upon and to redo everything when i need to.
+
+please don't use this for a server, as there is little to no security, thank you :3
 
 ## shoutout page
 shoutout to [RusselsTeap0t](https://www.reddit.com/r/Gentoo/comments/150r74m/guide_hyprland_nvidia_extremely_minimal_gentoo/
