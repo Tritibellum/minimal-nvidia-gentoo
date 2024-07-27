@@ -7,7 +7,7 @@
     - Debloater (Available on make.conf)
     - [Sinit init system](https://github.com/Andrey0189/sinit-scripts)
     - Minimal Kernel Configuration
-    - Around 300 MiBs !
+    - Around 300 MiBs RAM usage! (taken from free -m, not neofetch)
 
 - Perfomannt System
     - [CachyOS kernel](https://github.com/CachyOS/linux-cachyos) and [settings](https://github.com/CachyOS/CachyOS-Settings)
