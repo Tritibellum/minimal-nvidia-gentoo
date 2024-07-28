@@ -3,17 +3,17 @@ sys-apps/portage ipc 						# these are needed
 sys-apps/openrc sysv-utils					# for shutdown, reboot, halt, etc etc...
 dev-lang/perl -minimal 						# you can't use perl installation scripts with minimal
 sys-devel/gcc nls cxx 						# these are defaults for gcc
-sys-libs/glibc multiarch 						# this increases performance
+sys-libs/glibc multiarch 					# this increases performance
 sys-libs/ncurses -minimal 					# dependency of foot terminal
 sys-kernel/linux-firmware savedconfig redistributable compress-xz # needed for nvidia-firmware
 sys-apps/util-linux su pam suid 				# for root login
 x11-drivers/nvidia-drivers driver modules static-libs # necessary flags for nvidia drivers 
-x11-drivers/nvidia-drivers kernel-open 		# open-source modules (ONLY FOR NVIDIA >1650 GPUS!!!)
-sys-fs/fuse suid							# suid
+x11-drivers/nvidia-drivers kernel-open 				# open-source modules (ONLY FOR NVIDIA >1650 GPUS!!!)
+sys-fs/fuse suid						# suid
 sys-fs/e2fsprogs tools						# ext4 fsck tool
-sys-apps/systemd-utils tmpfiles				# dependency
-net-misc/curl ssl openssl curl_ssl_openssl 		# needed for cmake
-dev-vcs/git curl							# needed for git clone
+sys-apps/systemd-utils tmpfiles					# dependency
+net-misc/curl ssl openssl curl_ssl_openssl 			# needed for cmake
+dev-vcs/git curl						# needed for git clone
 dev-libs/glib mime 						# not recommended to disable by package
 dev-lang/python ensurepip ssl sqlite ncurses 	# needed as dependency
 dev-libs/nettle gmp						# dependency (gnutls)
