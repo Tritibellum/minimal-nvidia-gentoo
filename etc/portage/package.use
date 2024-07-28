@@ -56,6 +56,7 @@ app-admin/doas pam persist
 media-video/pipewire sound-server pipewire-alsa
 
 # Window Manager (swaywm)
+media-libs/mesa gles2 X
 sys-auth/seatd server
 gui-libs/wlroots tinywl
 gui-wm/sway swaybar
