@@ -22,7 +22,7 @@ sys-apps/coreutils hostname					# build hostname program
 # CACHYOS KERNEL
 sys-kernel/cachyos-sources 	auto-cpu-optimization mnative_amd bore-sched-ext
 sys-kernel/cachyos-sources	disable_debug tickrate_perodic hz_ticks_1000 hugepage_madvise
-						# for the best performance :3 
+				# for the best performance :3 
 
 # DEFAULT APPS (these are default apps for Gentoo)#
 app-alternatives/awk gawk
