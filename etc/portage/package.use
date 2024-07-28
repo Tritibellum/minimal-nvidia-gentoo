@@ -56,7 +56,15 @@ app-admin/doas pam persist
 media-video/pipewire sound-server pipewire-alsa
 
 # Window Manager (swaywm)
-media-libs/mesa gles2 X
+
+# Unfortunately vdpau pushes a X use flag requirement, which has bloat, but might impact performance
+# -------------
+# WITHOUT VDPAU
+media-libs/mesa gles2 -vdpau
+# WITH VDPAU
+#media-libs/mesa gles2 X
+#media-libs/libglvnd X
+
 sys-auth/seatd server
 gui-libs/wlroots tinywl
 gui-wm/sway swaybar
