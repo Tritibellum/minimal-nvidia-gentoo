@@ -1,6 +1,3 @@
-# Unmask dinit init system from gentoo overlay
-sys-process/dinit ~amd64
-
 ###############################################################
 
 # Unmask the most recent release of CachyOS (likely non-stable!)
