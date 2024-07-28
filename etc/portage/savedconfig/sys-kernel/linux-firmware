@@ -1,6 +1,9 @@
 # Remove files that shall not be installed from this list.
 # WARNIG: DO NOT COPY THIS FILE, JUST INSTALL THE LINUX FIRMWARE NORMALLY, THEN CONFIGURE AT YOUR OWN!!!!
+
+# AMD MICROCODE
 amd-ucode/microcode_amd_fam17h.bin
+# NVIDIA TU117
 nvidia/tu117/acr/ucode_asb.bin.zst
 nvidia/tu117/acr/ucode_ahesasc.bin.zst
 nvidia/tu117/acr/bl.bin.zst
@@ -24,6 +27,7 @@ nvidia/tu117/gr/fecs_data.bin.zst
 nvidia/tu117/gr/fecs_inst.bin.zst
 nvidia/tu117/gsp
 nvidia/tu117/nvdec/scrubber.bin.zst
+# RTLWIFI 802.11ac
 rtlwifi/rtl8192cufw_B.bin.zst
 rtlwifi/rtl8723defw.bin.zst
 rtlwifi/rtl8812aefw_wowlan.bin.zst
