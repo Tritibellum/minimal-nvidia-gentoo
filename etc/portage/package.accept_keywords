@@ -4,4 +4,4 @@
 sys-kernel/cachyos-sources ~amd64
 
 # Unmask the most recent release of GCC (likely non-stable!)
-dev-libs/gcc ~amd64
+sys-devel/gcc ~amd64
