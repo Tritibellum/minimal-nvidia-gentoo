@@ -15,7 +15,7 @@
     - Compiler optimization (Available on make.conf)
 
 - Desktop Enviroment
-    - Sway (It is a simple, i3-based wayland compositor, that's not too ram-hungry)
+    - Sway (It is a simple (and mature), i3-based wayland compositor, that's also not too ram-hungry)
 
 ## WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
