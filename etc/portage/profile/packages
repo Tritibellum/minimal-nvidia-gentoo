@@ -7,3 +7,5 @@
 -*sys-apps/man-db
 # NET-TOOLS
 -*sys-apps/net-tools
+# OPENRC
+-*sys-apps/openrc
