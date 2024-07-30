@@ -1,7 +1,4 @@
-###############################################################
-
-# Unmask the most recent release of CachyOS (likely non-stable!)
+#
+# Unmask the most recent release of CachyOS kernel
+#
 sys-kernel/cachyos-sources ~amd64
-
-# Unmask the most recent release of GCC (likely non-stable!)
-sys-devel/gcc ~amd64
