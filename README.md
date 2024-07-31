@@ -5,12 +5,12 @@
 - Minimal System
     - USE="-* ..."
     - Debloater (Available on make.conf)
-    - [Dinit init system](https://github.com/davmac314/dinit)
     - Minimal Kernel Configuration
     - Around 300 MiBs RAM usage! (taken from free -m, not neofetch)
 
 - Perfomannt System
     - [CachyOS kernel](https://github.com/CachyOS/linux-cachyos) and [settings](https://github.com/CachyOS/CachyOS-Settings)
+    - [Dinit init system](https://github.com/davmac314/dinit)
     - Support for NVIDIA open-source (above GTX +1650)
     - Compiler optimization (Available on make.conf)
 
