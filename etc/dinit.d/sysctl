@@ -1,5 +1,4 @@
 type      = scripted
-command   = /usr/bin/modules-load
+command   = /usr/bin/sysctl --system
 restart   = false
 waits-for = pseudofs
-waits-for = udev-settle

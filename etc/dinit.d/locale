@@ -1,5 +1,5 @@
 type       = scripted
-command    = /etc/dinit.d/scripts/locale
+command    = /bin/sh /etc/profile.d/locale.sh
 restart    = false
 depends-on = root-rw
 depends-on = pseudofs

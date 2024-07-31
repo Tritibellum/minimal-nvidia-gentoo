@@ -1,5 +1,4 @@
 type      = scripted
-command   = /usr/bin/modules-load
+command   = /bin/mount -t tmpfs tmpfs /tmp
 restart   = false
 waits-for = pseudofs
-waits-for = udev-settle
