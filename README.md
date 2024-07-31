@@ -5,7 +5,7 @@
 - Minimal System
     - USE="-* ..."
     - Debloater (Available on make.conf)
-    - [Sinit init system](https://github.com/Andrey0189/sinit-scripts)
+    - [Dinit init system](https://github.com/davmac314/dinit)
     - Minimal Kernel Configuration
     - Around 300 MiBs RAM usage! (taken from free -m, not neofetch)
 
