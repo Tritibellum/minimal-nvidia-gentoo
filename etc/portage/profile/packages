@@ -1,11 +1,10 @@
-### Useless profile-masked packages ###
-
+# Masks profile packages to save some space
 # MAN
 -*sys-apps/man-pages
 -*virtual/man 
 -*acct-user/man
 -*sys-apps/man-db
-# NET-TOOLS
+# NET TOOLS
 -*sys-apps/net-tools
 # OPENRC
 -*sys-apps/openrc
