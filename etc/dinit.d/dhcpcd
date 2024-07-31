@@ -1,0 +1,7 @@
+type            = process
+command         = /sbin/dhcpcd -B -M
+smooth-recovery = true
+logfile         = /var/log/dinit/dhcpcd.log
+waits-for       = root-rw
+waits-for       = nftables
+

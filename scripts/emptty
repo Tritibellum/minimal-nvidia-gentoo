@@ -1,0 +1,4 @@
+#!/bin/sh -l
+
+exec /usr/bin/emptty -d
+#exec setsid agetty -in -l /usr/bin/emptty -o "-d" tty7 38400 linux

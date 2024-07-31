@@ -1,0 +1,9 @@
+type    = scripted
+command = /etc/dinit.d/scripts/root-rw
+restart = false
+#options = starts-rwfs
+logfile = /boot/log/dinit/rootrw.log
+
+depends-on = mount-all
+waits-for  = hwclock
+waits-for  = fsck

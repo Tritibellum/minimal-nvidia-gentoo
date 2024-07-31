@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/sbin/acpid -f
+smooth-recovery = true
+depends-on      = pseudofs
+waits-for       = root-rw
+logfile         = /var/log/dinit/acpid.log

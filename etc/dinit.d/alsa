@@ -1,0 +1,4 @@
+type         = scripted
+command      = /bin/alsactl restore
+stop-command = /bin/alsactl store
+restart      = false

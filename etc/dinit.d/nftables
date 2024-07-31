@@ -1,0 +1,6 @@
+type         = scripted
+command      = /sbin/nft -f /etc/nftables/main.nft
+stop-command = /sbin/nft flush ruleset
+restart      = false
+waits-for    = loginready
+logfile = /var/log/dinit/nftables.log

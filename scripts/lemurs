@@ -1,0 +1,3 @@
+#!/bin/sh -l
+
+exec setsid agetty -in -l /usr/bin/lemurs -o "--tty 7" tty7 38400 linux

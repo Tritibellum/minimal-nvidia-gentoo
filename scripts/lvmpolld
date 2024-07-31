@@ -1,0 +1,3 @@
+#!/bin/sh
+/bin/mkdir -p /run/lvm
+exec /sbin/lvmpolld -t 60 -f 2>&1

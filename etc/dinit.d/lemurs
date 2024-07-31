@@ -1,0 +1,6 @@
+type = process
+command = /etc/dinit.d/scripts/lemurs
+restart = true
+smooth-recovery = true
+waits-for = loginready
+logfile         = /var/log/dinit/lemurs.log
