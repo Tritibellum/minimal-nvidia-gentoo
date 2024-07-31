@@ -1,0 +1,2 @@
+# Mask every amano-kenji packages (we only need sys-process/dinit)
+*/*::amano-kenji
