@@ -28,4 +28,5 @@ please don't use this for a server, as there is little to no security (except a 
 shoutout to [RusselsTeap0t](https://www.reddit.com/r/Gentoo/comments/150r74m/guide_hyprland_nvidia_extremely_minimal_gentoo/
 ) for making a minimal nvidia gentoo guide (beware that the guide is for **intel cpu** users!)
 
+shoutout to [FictitiousExistence](https://gitlab.com/fictitiousexistence-public/dinit-gentoo/) for having the dinit services for gentoo, i have forked them into here to make things quicker
 
