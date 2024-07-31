@@ -1,4 +1,2 @@
 # Unmasks Dinit
 sys-process/dinit::amano-kenji
-# Unmasks QT
-dev-qt/qt*
