@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 
 umask 077
 bytes="$(cat /proc/sys/kernel/random/poolsize)" || bytes=512
