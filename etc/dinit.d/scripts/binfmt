@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 mountpoint -q /proc/sys/fs/binfmt_misc || \
     mount -t binfmt_misc binfmt /proc/sys/fs/binfmt_misc || exit 1
 
