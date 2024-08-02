@@ -1,7 +1,0 @@
-type = scripted
-command = /bin/mount -o remount,rw /
-restart = false
-logfile = /boot/log/dinit/rootrw.log
-depends-on = mount-all
-waits-for = hwclock
-waits-for = fsck

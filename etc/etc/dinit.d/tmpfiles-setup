@@ -1,5 +1,0 @@
-type = scripted
-command   = /bin/systemd-tmpfiles --exclude-prefix=/dev --create --remove --boot
-restart = false
-after = udev-settle
-depends-on = root-rw
