@@ -3,3 +3,4 @@
 type = internal
 depends-ms = getty
 waits-for = loginready
+waits-for.d = boot.d
