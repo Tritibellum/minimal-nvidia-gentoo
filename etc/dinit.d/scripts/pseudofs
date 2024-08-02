@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 
 mountpoint -q /sys   || mount -t sysfs sysfs /sys -o nosuid,noexec,nodev
 mountpoint -q /proc || mount -t proc proc /proc -o hidepid=1,nosuid,noexec,nodev
