@@ -1,5 +1,0 @@
-type            = process
-command         = /usr/sbin/automount -f
-smooth-recovery = true
-logfile         = /var/log/dinit/automount.log
-waits-for       = loginready

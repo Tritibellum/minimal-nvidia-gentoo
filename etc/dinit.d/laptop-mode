@@ -1,5 +1,0 @@
-type            = process
-command         = /usr/sbin/laptop_mode auto 
-smooth-recovery = true
-logfile         = /var/log/dinit/laptop-mode.log
-waits-for       = loginready

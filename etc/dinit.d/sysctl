@@ -1,4 +1,0 @@
-type      = scripted
-command   = /usr/bin/sysctl --system
-restart   = false
-waits-for = pseudofs
