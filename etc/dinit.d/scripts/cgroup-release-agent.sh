@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 # This is run by the kernel after the last task is removed from a
 # control group in the openrc hierarchy.
 
