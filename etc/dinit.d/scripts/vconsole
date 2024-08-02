@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 [ -r /etc/vconsole.conf ] && . /etc/vconsole.conf
 TTYS=${TTYS:-6}
 _index=0
