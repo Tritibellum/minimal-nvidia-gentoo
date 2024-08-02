@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 . /etc/dinit.d/config/hwclock.conf
 
 HARDWARECLOCK=${HARDWARECLOCK:-UTC}
