@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 dmesg > /var/log/dmesg.log
 if [ -e /proc/sys/kernel/dmesg_restrict ] && \
     [ "$(cat /proc/sys/kernel/dmesg_restrict)" = 1 ]; then
