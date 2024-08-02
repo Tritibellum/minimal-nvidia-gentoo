@@ -30,12 +30,15 @@ mount -n -t proc -o remount,hidepid=1 proc /proc
 [ -e /dev/stderr ] || ln -snf /proc/self/fd/2 /dev/stderr
 [ -e /proc/kcore ] && ln -snf /proc/kcore /dev/core
 
-mkdir -p /dev/pts /dev/shm 
-mountpoint -q /dev/pts || mount -t devpts devpts /dev/pts -o mode=0620,gid=5,nosuid,noexec
-mountpoint -q /dev/shm || mount -t tmpfs shm /dev/shm -o mode=1777,nosuid,nodev
-mountpoint -q /run     || mount -t tmpfs run /run -o mode=0755,nosuid,nodev
-
+mkdir -p /dev/pts
+mkdir -p /dev/shm 
 mkdir -p /run/dinit
 mkdir -p /run/lock
 mkdir -p /run/udev
 mkdir -p /run/dbus
+
+mountpoint -q /dev/pts || mount -t devpts devpts /dev/pts -o mode=0620,gid=5,nosuid,noexec
+mountpoint -q /dev/shm || mount -t tmpfs shm /dev/shm -o mode=1777,nosuid,nodev
+mountpoint -q /run     || mount -t tmpfs run /run -o mode=0755,nosuid,nodev
+
+
