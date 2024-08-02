@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 
 [ -r /etc/dinit.d/config/cgroups.conf ] && . /etc/dinit.d/config/cgroups.conf
 
