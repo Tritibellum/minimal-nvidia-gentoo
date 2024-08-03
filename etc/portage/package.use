@@ -6,7 +6,7 @@ sys-libs/glibc multiarch 					# this increases performance
 sys-libs/ncurses -minimal 					# dependency of foot terminal
 sys-kernel/linux-firmware savedconfig redistributable compress-xz # needed for nvidia-firmware
 sys-apps/util-linux su pam suid 				# for root login
-x11-drivers/nvidia-drivers driver modules static-libs # necessary flags for nvidia drivers 
+x11-drivers/nvidia-drivers driver modules static-libs -X	# necessary flags for nvidia drivers 
 x11-drivers/nvidia-drivers kernel-open 				# open-source modules (ONLY FOR NVIDIA >1650 GPUS!!!)
 sys-fs/fuse suid						# suid
 sys-fs/e2fsprogs tools						# ext4 fsck tool
