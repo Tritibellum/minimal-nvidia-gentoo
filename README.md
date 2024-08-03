@@ -8,14 +8,14 @@
     - Minimal Kernel Configuration
     - Around 300 MiBs RAM usage! (taken from free -m, not neofetch)
 
-- Perfomannt System
+- Perfomant System
     - [CachyOS kernel](https://github.com/CachyOS/linux-cachyos) and [settings](https://github.com/CachyOS/CachyOS-Settings)
     - [Dinit init system](https://github.com/davmac314/dinit)
     - Support for NVIDIA open-source (above GTX +1650)
     - Compiler optimization (Available on make.conf)
 
 - Desktop Enviroment
-    - Sway (It is a simple, i3-based wayland compositor, that's also not too ram-hungry)
+    - Sway (It is a simple, i3-based wayland compositor)
 
 ## WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
