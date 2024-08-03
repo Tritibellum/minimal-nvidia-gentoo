@@ -4,3 +4,4 @@ depends-on = setup
 logfile = /var/log/dinit/dbus-daemon.log
 ready-notification = pipefd:4
 smooth-recovery = yes
+depends-on = dbus-pre
