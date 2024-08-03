@@ -14,7 +14,7 @@ sys-apps/systemd-utils tmpfiles					# dependency
 net-misc/curl ssl openssl curl_ssl_openssl 			# needed for cmake
 dev-vcs/git curl						# needed for git clone
 dev-libs/glib mime 						# not recommended to disable by package
-dev-lang/python ensurepip ssl sqlite ncurses 	# needed as dependency
+dev-lang/python ensurepip ssl sqlite ncurses 			# needed as dependency
 dev-libs/nettle gmp						# dependency (gnutls)
 sys-apps/coreutils hostname					# build hostname program
 
