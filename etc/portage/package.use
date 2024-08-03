@@ -57,9 +57,8 @@ media-video/pipewire sound-server pipewire-alsa
 
 # Window Manager (swaywm)
 media-libs/mesa gles2 -vdpau
-			# mesa just ignores vdpau anyway, no reason to use it, plus it requires X use flag, which is even more bloat
 sys-auth/seatd server
-gui-libs/wlroots tinywl
+gui-libs/wlroots
 gui-wm/sway swaybar
 
 # Font Rendering (needed) #
