@@ -1,6 +1,6 @@
 CC="clang"
 CXX="clang++"
-LD="ld.lld"
+LD="ld.mold"
 AR="llvm-ar"
 NM="llvm-nm"
 RANLIB="llvm-ranlib"
