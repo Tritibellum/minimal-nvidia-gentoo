@@ -57,9 +57,7 @@ media-video/pipewire sound-server pipewire-alsa
 
 # Window Manager (swaywm)
 media-libs/mesa gles2 -vdpau
-sys-auth/seatd server
-gui-libs/wlroots
-gui-wm/sway swaybar
+x11-wm/dwm savedconfig
 
 # Font Rendering (needed) #
 media-libs/freetype harfbuzz adobe-cff cleartype-hinting truetype png
