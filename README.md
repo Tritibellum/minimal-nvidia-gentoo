@@ -1,4 +1,4 @@
-# Minimal and Performant Nvidia Sway Gentoo
+# Minimal and Performant Nvidia Gentoo
 
 ## FEATURES (STILL UNDERCONSTRUCTION)
 
