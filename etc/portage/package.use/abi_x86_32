@@ -1,3 +1,6 @@
+# -------------------------------------- # Feel free to remove this if you want a pure x64 system, as it might make compilations longer
+# This is for people who uses steam/wine # 
+# -------------------------------------- #
 app-accessibility/at-spi2-atk abi_x86_32
 app-accessibility/at-spi2-core abi_x86_32
 app-arch/bzip2 abi_x86_32
