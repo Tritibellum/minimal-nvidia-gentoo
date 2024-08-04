@@ -15,7 +15,8 @@
     - Compiler optimization (Available on make.conf)
 
 - Desktop Enviroment
-    - Sway (It is a simple, i3-based wayland compositor)
+    - Xwayland: Sway
+      (Don't worry, you can remove -X flags with package.use on wayland applications)
 
 ## WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
