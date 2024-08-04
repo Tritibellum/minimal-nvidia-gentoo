@@ -15,8 +15,7 @@
     - Compiler optimization (Available on make.conf)
 
 - Desktop Enviroment
-    - Xwayland: Sway
-      (Don't worry, you can remove -X flags with package.use on wayland applications)
+    - DWM (suckless window manager)
 
 ## WARNING: DO NOT GIT CLONE THIS UNLESS YOU KNOW WHAT YOU'RE DOING!!!
 
