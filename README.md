@@ -6,7 +6,7 @@
     - USE="-* ..."
     - Debloater (Available on make.conf)
     - Minimal Kernel Configuration
-    - Around 300 MiBs RAM usage! (taken from free -m, not neofetch)
+    - Around 300 MiBs RAM usage (taken from free -m, not neofetch)
 
 - Perfomant System
     - [CachyOS kernel](https://github.com/CachyOS/linux-cachyos) and [settings](https://github.com/CachyOS/CachyOS-Settings)
