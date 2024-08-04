@@ -60,5 +60,6 @@ media-libs/mesa gles2 -vdpau
 x11-wm/dwm savedconfig
 
 # Font Rendering (needed) #
-media-libs/freetype harfbuzz adobe-cff cleartype-hinting truetype png
+media-libs/freetype adobe-cff cleartype-hinting truetype png
 media-libs/harfbuzz glib icu truetype cairo graphite introspection
+dev-libs/libpcre2 unicode
