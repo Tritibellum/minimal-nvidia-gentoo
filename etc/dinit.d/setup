@@ -6,5 +6,4 @@ waits-for = net-lo
 waits-for = random-seed
 waits-for = sysctl
 waits-for = tmpfiles-setup
-waits-for = dbus
 waits-for = vconsole
