@@ -1,3 +1,4 @@
+# Taken from this: https://wiki.gentoo.org/wiki/Steam
 x11-libs/libX11  abi_x86_32
 x11-libs/libXau  abi_x86_32
 x11-libs/libxcb  abi_x86_32
@@ -26,8 +27,6 @@ dev-libs/elfutils  abi_x86_32
 app-arch/bzip2  abi_x86_32
 dev-libs/nspr  abi_x86_32
 dev-libs/nss  abi_x86_32
-# Taken from this: https://wiki.gentoo.org/wiki/Steam
-
 net-libs/libndp  abi_x86_32
 x11-libs/extest abi_x86_32
 dev-libs/libevdev abi_x86_32
