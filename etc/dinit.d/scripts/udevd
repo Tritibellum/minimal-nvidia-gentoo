@@ -1,1 +1,3 @@
 /lib/systemd/systemd-udevd --daemon
+
+command = /bin/udevadm settle
