@@ -1,5 +1,10 @@
 #!/bin/dash
 
-/lib/systemd/systemd-udevd --daemon
-/bin/udevadm trigger --action=add
-exec /bin/udevadm settle
+set -e
+if [ "$1" = start ]; then
+  /lib/systemd/systemd-udevd --daemon
+  /bin/udevadm trigger --action=add
+  exec /bin/udevadm settle
+else
+  exec /bin/udevadm control -e
+fi
