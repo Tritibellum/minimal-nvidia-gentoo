@@ -1,3 +1,4 @@
+#!/bin/dash
 /lib/systemd/systemd-udevd --daemon
-
-command = /bin/udevadm settle
+/bin/udevadm trigger --action=add
+/bin/udevadm settle
