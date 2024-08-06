@@ -72,6 +72,7 @@ dev-libs/libpcre2 unicode
 net-libs/nodejs -system-icu -system-ssl
 media-libs/libvpx postproc
 media-libs/libpng apng
+www-client/firefox openh264 hwaccel hardened
 
 # Discord
 app-crypt/gcr gtk
