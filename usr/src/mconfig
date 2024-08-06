@@ -1,0 +1,44 @@
+# Installation path options.
+
+SBINDIR=/sbin
+MANDIR=/usr/share/man
+SYSCONTROLSOCKET=/run/dinitctl
+
+
+# General build options.
+
+# Linux (GCC). Note with GCC 5.x/6.x you must use the old ABI, with GCC 7.x you must use
+# the new ABI. See BUILD file for more information.
+CXX=g++
+CXXFLAGS=-std=c++11 -Wall -fno-rtti -fno-plt $(CUSTOMFLAGS)
+CPPFLAGS=-D_GLIBCXX_USE_CXX11_ABI=1
+LDFLAGS_BASE=
+LDFLAGS=$(LDFLAGS_BASE) $(CXXFLAGS) $(CUSTOMLD)
+TEST_CXXFLAGS=$(CXXFLAGS) 
+TEST_LDFLAGS_BASE=$(LDFLAGS_BASE)
+TEST_LDFLAGS=$(TEST_LDFLAGS_BASE) $(TEST_CXXFLAGS)
+BUILD_SHUTDOWN=yes
+
+# Custom Flags
+CUSTOMFLAGS=-Ofast -funroll-loops -flto=69 -fuse-linker-plugin -fdevirtualize-at-ltrans -fdata-sections -ffunction-sections
+CUSTOMLD=-Wl,-O3 -Wl,--as-needed -Wl,-z,now -Wl,-z,relro -Wl,-flto -Wl,--gc-sections -fuse-ld=mold 
+
+# Notes:
+#   -D_GLIBCXX_USE_CXX11_ABI=1 : force use of new ABI, see above / BUILD
+#   -fno-rtti (optional) : Dinit does not require C++ Run-time Type Information
+#   -fno-plt  (optional) : Recommended optimisation
+#   -flto     (optional) : Perform link-time optimisation
+#   -fsanitize=address,undefined :  Apply sanitizers (during unit tests)
+# LDFLAGS should also contain C++ optimisation flags for LTO (-flto).
+
+
+# Feature settings
+
+SUPPORT_CGROUPS=1
+
+
+# Service defaults
+
+DEFAULT_AUTO_RESTART=ALWAYS
+DEFAULT_START_TIMEOUT=60
+DEFAULT_STOP_TIMEOUT=10
