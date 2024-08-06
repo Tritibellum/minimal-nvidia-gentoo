@@ -64,14 +64,14 @@ media-libs/freetype adobe-cff cleartype-hinting truetype png
 media-libs/harfbuzz glib icu truetype cairo graphite introspection
 dev-libs/libpcre2 unicode
 
-# FIREFOX
-net-libs/nodejs -system-icu -system-ssl
-media-libs/libvpx postproc
-media-libs/libpng apng
-
 ### -------------- ###
 ### WORLD PACKAGES ###
 ### -------------- ###
+
+# Firefox
+net-libs/nodejs -system-icu -system-ssl
+media-libs/libvpx postproc
+media-libs/libpng apng
 
 # Discord
 app-crypt/gcr gtk
