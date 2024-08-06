@@ -7,7 +7,7 @@
     - Debloater (Available on make.conf)
     - Minimal Kernel Configuration
     - Around 300 MiBs RAM usage
-    - Around 350 packages
+    - Around 350 portage packages
 
 - Perfomant System
     - [CachyOS kernel](https://github.com/CachyOS/linux-cachyos) and [settings](https://github.com/CachyOS/CachyOS-Settings)
