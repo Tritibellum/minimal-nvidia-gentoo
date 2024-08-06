@@ -1,10 +1,13 @@
-# SYSTEM PACKAGES #
+### --------------- ###
+### SYSTEM PACKAGES ###
+### --------------- ###
+
+#! SYSTEM !#
 sys-apps/portage ipc 						# these are needed
 dev-lang/perl -minimal 						# you can't use perl installation scripts with minimal
 sys-devel/gcc nls cxx 						# these are defaults for gcc
 sys-libs/glibc multiarch 					# this increases performance
 sys-kernel/linux-firmware savedconfig redistributable compress-xz # needed for nvidia-firmware
-sys-apps/util-linux su pam suid 				# for root login
 x11-drivers/nvidia-drivers driver modules static-libs 		# necessary flags for nvidia drivers 
 x11-drivers/nvidia-drivers kernel-open 				# open-source modules (ONLY FOR NVIDIA >1650 GPUS!!!)
 sys-fs/fuse suid						# suid
@@ -15,14 +18,12 @@ dev-vcs/git curl						# needed for git clone
 dev-libs/glib mime 						# not recommended to disable by package
 dev-lang/python ensurepip ssl sqlite ncurses 			# needed as dependency
 dev-libs/nettle gmp						# dependency (gnutls)
-sys-apps/coreutils hostname					# build hostname program
 
-# CACHYOS KERNEL
+#! CACHYOS KERNEL !#
 sys-kernel/cachyos-sources 	auto-cpu-optimization mnative_amd bore-sched-ext
 sys-kernel/cachyos-sources	disable_debug tickrate_perodic hz_ticks_1000 hugepage_madvise
 				# for the best performance :3 
-
-# DEFAULT APPS (these are default apps for Gentoo)#
+#! DEFAULT GENTOO APPS !#
 app-alternatives/awk gawk
 app-alternatives/bzip2 reference 
 app-alternatives/gzip reference 
@@ -34,31 +35,50 @@ app-alternatives/bc gnu
 app-alternatives/cpio gnu 
 app-alternatives/ninja reference
 
-# WORLD PACKAGES #
-#
-# place all necessary use flags for packages down below:
-#
-# ------------------------------------------------------
+### -------------------- ###
+### SEMI-SYSTEM PACKAGES ###
+### -------------------- ###
 
-# Firewall
+# UFW
 net-firewall/ufw ipv6
 net-firewall/iptables netlink conntrack
 
-# Network
-net-misc/connman iptables wifi tools
+# NETWORKMANAGER
+net-misc/networkmanager wifi iptables tools gnutls
 net-wireless/wpa_supplicant tkip dbus
 
-# Admin Tools
+# DOAS
 app-admin/doas pam persist
 
-# Audio
+# PIPEWIRE
 media-video/pipewire sound-server pipewire-alsa
+media-libs/libcanberra -udev
 
-# Window Manager (swaywm)
+# DWM + XORG SERVER
 media-libs/mesa gles2 -vdpau
+x11-base/xorg-server minimal xvfb suid
 x11-wm/dwm savedconfig
 
-# Font Rendering (needed) #
+# FONT RENDERING #
 media-libs/freetype adobe-cff cleartype-hinting truetype png
 media-libs/harfbuzz glib icu truetype cairo graphite introspection
 dev-libs/libpcre2 unicode
+
+# FIREFOX
+net-libs/nodejs -system-icu -system-ssl
+media-libs/libvpx postproc
+media-libs/libpng apng
+
+### -------------- ###
+### WORLD PACKAGES ###
+### -------------- ###
+
+# Discord
+app-crypt/gcr gtk
+
+# Steam
+x11-libs/cairo glib
+app-text/xmlto text
+app-i18n/ibus gtk3
+games-util/steam-client-meta steamfonts -trayicon
+games-util/steam-launcher desktop-portal
