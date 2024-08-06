@@ -13,7 +13,7 @@
     - [CachyOS kernel](https://github.com/CachyOS/linux-cachyos) and [settings](https://github.com/CachyOS/CachyOS-Settings)
     - [Dinit init system](https://github.com/davmac314/dinit)
     - Support for NVIDIA open-source (above GTX +1650)
-    - Compiler optimization (Available on make.conf)
+    - Compiler optimizations (Available on make.conf)
 
 - Desktop Enviroment
     - DWM (suckless window manager)
