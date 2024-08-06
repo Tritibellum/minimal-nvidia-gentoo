@@ -4,4 +4,3 @@ stop-command = /etc/dinit.d/scripts/random-seed save
 restart = false
 waits-for = pseudofs
 waits-for = udev-settle
-waits-for = root-rw
