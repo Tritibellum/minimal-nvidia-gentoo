@@ -1,6 +1,6 @@
 # Minimal and Performant Nvidia Gentoo
 
-## FEATURES (STILL UNDERCONSTRUCTION)
+## FEATURES
 
 - Minimal System
     - USE="-* ..."
