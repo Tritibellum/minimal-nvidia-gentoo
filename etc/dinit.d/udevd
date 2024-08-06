@@ -1,6 +1,6 @@
 type = scripted
-command = /lib/systemd/systemd-udevd --daemon
-stop-command = /bin/udevadm control -e
+command = /etc/dinit.d/scripts/udevd start
+stop-command = /etc/dinit.d/scripts/udevd stop
 restart = false
 depends-on = pseudofs
 waits-for = kmod-static-nodes
