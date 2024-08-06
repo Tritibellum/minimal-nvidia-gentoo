@@ -1,3 +1,4 @@
 #!/bin/dash
 dbus-uuidgen --ensure=/etc/machine-id
 [ ! -d /run/dbus ] && install -m775 -g root -o root -d /run/dbus
+dbus-daemon --system --nofork --nopidfile --print-address=4
