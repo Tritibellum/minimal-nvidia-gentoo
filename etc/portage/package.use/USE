@@ -7,6 +7,7 @@ sys-apps/portage ipc 						# these are needed
 dev-lang/perl -minimal 						# you can't use perl installation scripts with minimal
 sys-devel/gcc nls cxx 						# these are defaults for gcc
 sys-libs/glibc multiarch 					# this increases performance
+sys-apps/systemd-utils udev					# adds udev
 sys-kernel/linux-firmware savedconfig redistributable compress-xz # needed for nvidia-firmware
 x11-drivers/nvidia-drivers driver modules static-libs 		# necessary flags for nvidia drivers 
 x11-drivers/nvidia-drivers kernel-open 				# open-source modules (ONLY FOR NVIDIA >1650 GPUS!!!)
