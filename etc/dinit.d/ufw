@@ -1,0 +1,5 @@
+type = process
+connmand = /usr/bin/ufw enable
+smooth-recovery = true
+depends-on = dbus
+depends-on = udevd
