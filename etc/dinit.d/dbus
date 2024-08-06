@@ -1,5 +1,4 @@
 type = scripted
 command = /etc/dinit.d/scripts/dbus
 restart = true
-logfile = /var/log/dinit/dbus-pre.log
 depends-on = cgroups
