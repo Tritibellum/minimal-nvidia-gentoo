@@ -3,7 +3,7 @@
 ## FEATURES (STILL UNDERCONSTRUCTION)
 
 - Minimal System
-    - USE="-* ..." and -Os
+    - USE="-* ..."
     - Debloater (Available on make.conf)
     - Minimal Kernel Configuration
     - Around 300 MiBs RAM usage (fastfetch)
