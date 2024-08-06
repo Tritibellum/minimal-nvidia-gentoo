@@ -59,3 +59,12 @@ sys-libs/libcap abi_x86_32
 sys-libs/pam abi_x86_32
 virtual/libiconv abi_x86_32
 x11-libs/xcb-util-keysyms abi_x86_32
+
+# Missing ABI_X86_32 packages
+x11-libs/libXi abi_x86_32
+x11-libs/pixman abi_x86_32
+dev-db/sqlite abi_x86_32
+dev-libs/libunistring abi_x86_32
+dev-libs/gmp abi_x86_32
+x11-driver/nvidia-drivers abi_x86_32
+media-libs/alsa-libs abi_x86_32
