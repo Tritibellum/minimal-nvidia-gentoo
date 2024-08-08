@@ -1,6 +1,6 @@
 #!/bin/dash
 [ -r /etc/vconsole.conf ] && . /etc/vconsole.conf
-TTYS=${TTYS:-6}
+TTYS=${TTYS:-2}
 _index=0
 while [ ${_index} -le "$TTYS" ]; do
     if [ -n "$FONT" ]; then
