@@ -68,5 +68,6 @@ x11-libs/pixman abi_x86_32
 dev-db/sqlite abi_x86_32
 dev-libs/libunistring abi_x86_32
 dev-libs/gmp abi_x86_32
-x11-driver/nvidia-drivers abi_x86_32
-media-libs/alsa-libs abi_x86_32
+x11-drivers/nvidia-drivers abi_x86_32
+media-libs/alsa-lib abi_x86_32
+media-sound/apulse abi_x86_32
