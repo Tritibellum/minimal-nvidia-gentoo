@@ -60,6 +60,9 @@ media-libs/mesa gles2 -vdpau
 x11-base/xorg-server minimal xvfb suid
 x11-wm/dwm savedconfig
 
+# ST
+x11-terms/st savedconfig
+
 # FONT RENDERING #
 media-libs/freetype adobe-cff cleartype-hinting truetype png
 media-libs/harfbuzz glib icu truetype cairo graphite introspection
