@@ -175,8 +175,8 @@ virtual/opencl abi_x86_32
 virtual/opengl abi_x86_32
 virtual/pkgconfig abi_x86_32
 x11-base/xcb-proto abi_x86_32
-x11-base/xorg-server
-x11-drivers/nvidia-drivers
+x11-base/xorg-server abi_x86_32
+x11-drivers/nvidia-drivers abi_x86_32
 x11-libs/cairo abi_x86_32
 x11-libs/extest abi_x86_32
 x11-libs/gdk-pixbuf abi_x86_32
