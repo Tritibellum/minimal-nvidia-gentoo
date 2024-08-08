@@ -131,7 +131,7 @@ sys-apps/attr abi_x86_32
 sys-apps/dbus abi_x86_32
 sys-apps/hwloc abi_x86_32
 sys-apps/pciutils abi_x86_32
-sys-apps/systemd abi_x86_32
+sys-apps/systemd-utils abi_x86_32
 sys-apps/tcp-wrappers abi_x86_32
 sys-apps/util-linux abi_x86_32
 sys-devel/clang abi_x86_32
@@ -175,6 +175,8 @@ virtual/opencl abi_x86_32
 virtual/opengl abi_x86_32
 virtual/pkgconfig abi_x86_32
 x11-base/xcb-proto abi_x86_32
+x11-base/xorg-server
+x11-drivers/nvidia-drivers
 x11-libs/cairo abi_x86_32
 x11-libs/extest abi_x86_32
 x11-libs/gdk-pixbuf abi_x86_32
