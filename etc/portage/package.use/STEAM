@@ -60,6 +60,9 @@ virtual/libiconv abi_x86_32
 x11-libs/xcb-util-keysyms abi_x86_32
 
 # Missing ABI_X86_32 packages
+sys-apps/systemd-utils abi_x86_32
+virtual/libcrypt abi_x86_32
+sys-libs/libxcrypt abi_x86_32
 x11-libs/libXi abi_x86_32
 x11-libs/pixman abi_x86_32
 dev-db/sqlite abi_x86_32
