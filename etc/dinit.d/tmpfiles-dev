@@ -1,4 +1,5 @@
 type = scripted
 command = /bin/systemd-tmpfiles --prefix=/dev --create --boot
+stop-command = /bin/systemd-tmpfiles --clean
 restart = false
 waits-for = kmod-static-nodes
