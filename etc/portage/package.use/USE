@@ -57,7 +57,7 @@ media-libs/libcanberra -udev
 
 # DWM + XORG SERVER
 media-libs/mesa gles2 -vdpau
-x11-base/xorg-server minimal xvfb suid
+x11-base/xorg-server minimal xvfb suid udev
 x11-wm/dwm savedconfig
 
 # ST
