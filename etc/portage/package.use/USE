@@ -75,7 +75,9 @@ dev-libs/libpcre2 unicode
 # Firefox
 net-libs/nodejs -system-icu -system-ssl
 media-libs/libvpx postproc
+media-video/libva-utils putsurface
 media-libs/libpng apng
+media-libs/openh264 plugin
 www-client/firefox hwaccel hardened
 
 # Discord
