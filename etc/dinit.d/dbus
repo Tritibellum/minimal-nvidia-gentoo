@@ -1,4 +1,6 @@
-type = scripted
-command = /etc/dinit.d/scripts/dbus
-restart = true
-depends-on = cgroups
+type = process
+command = /usr/bin/dbus-daemon --system --nofork --nopidfile --print-address=4
+depends-on = udevd
+logfile = /var/log/dbus.log
+ready-notification = pipefd:4
+smooth-recovery = yes
