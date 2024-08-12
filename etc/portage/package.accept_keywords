@@ -1,3 +1,6 @@
 # Unmask the most recent release of CachyOS kernel and gcc
 sys-kernel/cachyos-sources ~amd64
 sys-devel/gcc ~amd64
+
+# Unmask Steam
+*/*::steam-overlay ~amd64
