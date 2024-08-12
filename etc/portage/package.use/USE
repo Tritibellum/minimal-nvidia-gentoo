@@ -70,6 +70,9 @@ dev-libs/libpcre2 unicode
 ### WORLD PACKAGES ###		CONFIGURE PACKAGES USE FLAGS HERE
 ### -------------- ###
 
+# VimB
+dev-lang/ruby ssl
+
 # Discord
 app-crypt/gcr gtk
 
