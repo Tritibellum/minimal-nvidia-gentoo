@@ -20,7 +20,7 @@ TEST_LDFLAGS=$(TEST_LDFLAGS_BASE) $(TEST_CXXFLAGS)
 BUILD_SHUTDOWN=yes
 
 # Custom Flags
-CUSTOMFLAGS=-Ofast -flto=full -fdata-sections -ffunction-sections
+CUSTOMFLAGS=-Ofast -flto=full -fno-rtti -fno-plt -fdata-sections -ffunction-sections
 CUSTOMLD=-fuse-ld=mold -Wl,--as-needed -Wl,-z,now -Wl,-z,relro -Wl,-flto -Wl,--gc-sections
 
 # Notes:
