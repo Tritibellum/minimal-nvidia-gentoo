@@ -29,6 +29,5 @@ this is my minimal nvidia gpu + amd cpu gentoo configuration files, with the mai
 
 ## TODO
 
-- setting up zram
 - system screenshot on README.md
 - other things...
