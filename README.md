@@ -30,3 +30,5 @@ this is my minimal nvidia gpu + amd cpu gentoo configuration files, with the mai
 ## TODO
 
 - switching systemd udev to mdev
+- system screenshot on README.md
+- other things...
