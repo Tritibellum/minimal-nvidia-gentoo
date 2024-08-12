@@ -1,4 +1,4 @@
-# Minimal and Performant Nvidia Gentoo
+# Minimal and Performant Nvidia Gentoo (EXPERIMENTAL)
 
 ## FEATURES
 
