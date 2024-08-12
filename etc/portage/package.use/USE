@@ -69,23 +69,5 @@ media-libs/harfbuzz glib icu truetype cairo graphite introspection
 dev-libs/libpcre2 unicode
 
 ### -------------- ###
-### WORLD PACKAGES ###
+### WORLD PACKAGES ###		CONFIGURE PACKAGES USE FLAGS HERE
 ### -------------- ###
-
-# Firefox
-net-libs/nodejs -system-icu -system-ssl
-media-libs/libvpx postproc
-media-video/libva-utils putsurface
-media-libs/libpng apng
-media-libs/openh264 plugin
-www-client/firefox hwaccel hardened
-
-# Discord
-app-crypt/gcr gtk
-
-# Steam
-x11-libs/cairo glib
-app-text/xmlto text
-app-i18n/ibus gtk3
-games-util/steam-client-meta steamfonts -trayicon
-games-util/steam-launcher desktop-portal
