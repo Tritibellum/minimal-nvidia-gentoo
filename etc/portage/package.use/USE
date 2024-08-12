@@ -69,3 +69,13 @@ dev-libs/libpcre2 unicode
 ### -------------- ###
 ### WORLD PACKAGES ###		CONFIGURE PACKAGES USE FLAGS HERE
 ### -------------- ###
+
+# Discord
+app-crypt/gcr gtk
+
+# Steam
+x11-libs/cairo glib
+app-text/xmlto text
+app-i18n/ibus gtk3
+games-util/steam-client-meta steamfonts -trayicon
+games-util/steam-launcher desktop-portal
