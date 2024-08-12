@@ -1,9 +1,7 @@
-# ABI_X86_32
+# ABI_X86_32 - HARDWARE ACCELERATION 
 #
-# put the packages that need hardware acceleration support
-#
-# beware that you might have to encounter some issues when adding ABI_X86_32 support, however, it is possible to play on a full 64-bit system
-# but that is not highly recommended for people who play games or just want better performance with their applications.
+# beware that you might have to encounter some issues when adding ABI_X86_32 support, however, it is possible to get a pure 64-bit system
+# but that is not highly recommended for people who play games (steam/wine/proton), otherwise, remove this file.
 # ___________________________________________________________________________________________________________________________________________
 
 app-accessibility/at-spi2-atk abi_x86_32
