@@ -4,6 +4,7 @@
 
 #! SYSTEM !#
 sys-apps/portage ipc 						# these are needed
+sys-apps;util-linux -udev					# circular dependency
 dev-lang/perl -minimal 						# you can't use perl installation scripts with minimal
 sys-devel/gcc nls cxx 						# these are defaults for gcc
 sys-libs/glibc multiarch 					# this increases performance
