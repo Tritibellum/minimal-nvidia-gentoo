@@ -31,18 +31,15 @@ mount -n -t proc -o remount,hidepid=1 proc /proc
 [ -e /proc/kcore ] && ln -snf /proc/kcore /dev/core
 
 
-# this will add the missing directories for the services
-mkdir -p /dev/pts
-mkdir -p /dev/shm 
-mkdir -p /run/dinit
-mkdir -p /run/lock
-mkdir -p /run/udev
-mkdir -p /run/dbus
-mkdir -p /run/dbus
+# make and mount /dev/pts, /dev/shm and /run
+mkdir /dev/pts
+mkdir /dev/shm 
+mkdir /run
 
-# mount /dev/pts, /dev/shm and /run
 mountpoint -q /dev/pts || mount -t devpts devpts /dev/pts -o mode=0620,gid=5,nosuid,noexec
 mountpoint -q /dev/shm || mount -t tmpfs shm /dev/shm -o mode=1777,nosuid,nodev
 mountpoint -q /run     || mount -t tmpfs run /run -o mode=0755,nosuid,nodev
 
-
+# add the missing directories for dinit and dbus services
+mkdir /run/dinit
+mkdir /run/dbus
