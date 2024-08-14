@@ -53,13 +53,18 @@ app-admin/doas pam persist
 # PIPEWIRE
 media-video/pipewire sound-server pipewire-alsa
 
-# DWM + XORG SERVER
+# XORG-SERVER
 media-libs/mesa gles2 -vdpau
 x11-base/xorg-server minimal xvfb suid udev
+
+# DWM
 x11-wm/dwm savedconfig
 
 # ST
 x11-terms/st savedconfig
+
+# DMENU
+x11-misc/dmenu savedconfig
 
 # FONT RENDERING #
 media-libs/freetype adobe-cff cleartype-hinting truetype png
