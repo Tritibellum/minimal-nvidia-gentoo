@@ -8,3 +8,4 @@
 -*sys-apps/net-tools
 # OPENRC
 -*sys-apps/openrc
+-*virtual/service-manager
