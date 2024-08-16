@@ -1,4 +1,5 @@
-# Unmasks USE flags in profile packages to get optimization (risky!)
+# Unmasks USE flags in profile packages to get optimization 
+# (risky)
 
 -lto 
 -pgo
