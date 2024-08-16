@@ -1,0 +1,13 @@
+# Unmasks USE flags in profile packages to get optimization (risky!)
+
+-lto 
+-pgo
+-tcmallloc
+-jemalloc
+-graphite 
+-xs 
+-asm 
+-orc 
+-jit 
+-threads 
+-openmp
