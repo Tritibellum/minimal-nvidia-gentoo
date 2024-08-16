@@ -12,6 +12,4 @@
 -jit 
 -threads 
 -openmp
-
-# (VERY RISKY!)
 -custom-cflags
