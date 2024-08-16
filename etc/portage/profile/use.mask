@@ -12,4 +12,3 @@
 -jit 
 -threads 
 -openmp
--custom-cflags
