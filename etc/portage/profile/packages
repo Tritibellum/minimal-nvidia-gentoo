@@ -1,4 +1,5 @@
-# Masks profile packages to save some space
+# Removes profile-dependency in profile packages to remove them easily 
+# (safe)
 
 # MAN
 -*sys-apps/man-pages
