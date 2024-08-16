@@ -1,4 +1,5 @@
 # Masks profile packages to save some space
+
 # MAN
 -*sys-apps/man-pages
 -*virtual/man 
