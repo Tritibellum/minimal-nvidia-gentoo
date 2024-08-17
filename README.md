@@ -34,8 +34,3 @@ this is my minimal nvidia gpu + amd cpu gentoo configuration files, with the mai
 > shoutout to [RusselsTeap0t](https://www.reddit.com/r/Gentoo/comments/150r74m/guide_hyprland_nvidia_extremely_minimal_gentoo/) for making a minimal nvidia hyprland gentoo guide (beware that the guide is for **intel cpu** users!)
 
 > shoutout to [FictitiousExistence](https://gitlab.com/fictitiousexistence-public/dinit-gentoo/) for having most of the dinit services for gentoo (in case you're looking for services, go to that link)
-
-## TODO
-
-- system screenshot on README.md
-- other things...
