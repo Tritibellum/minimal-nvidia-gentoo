@@ -4,8 +4,6 @@ Notice: I have been messing around with gentoo for a while, but now I feel like 
 
 It doesn't mean much to me though, as I might move to LFS to learn more about linux. Will I ever use LFS for daily-driving? Unlikely, but it is definitely worth a shot, since I'm quite interested about linux and how it works.
 
-I am currently using Void Linux, which basically quite minimal in different ways (runit, disk usage, etc) and quite similar to slackware.
-
 I'm planning to make my dotfiles soon (and perhaps an automatic void linux installation script).
 
 ## FEATURES
