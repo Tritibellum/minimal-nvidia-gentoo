@@ -1,6 +1,6 @@
 # Minimal and Performant Nvidia Gentoo (DEPRECATED - 08/17/24)
 
-Notice: I have been messing around with gentoo for a while, but now I feel like it is time to move on to a different distro. Mainly due to the compilation times and disk usage, which are driving me nuts, but also the fact that I couldn't get the sound working on pipewire (for some reason...)
+Notice: I have been messing around with gentoo for a while, but now I feel like it is time to move on to a different distro. Mainly due to the compilation times, which are driving me nuts, but also the fact that I couldn't get the sound working on pipewire (for some reason...)
 
 It doesn't mean much to me though, as I might move to LFS to learn more about linux. Will I ever use LFS for daily-driving? Unlikely, but it is definitely worth a shot, since I'm quite interested about linux and how it works.
 
