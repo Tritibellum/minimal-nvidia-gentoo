@@ -75,10 +75,6 @@ dev-libs/libpcre2 unicode
 ### WORLD PACKAGES ###		CONFIGURE PACKAGES USE FLAGS HERE
 ### -------------- ###
 
-# VimB
-dev-lang/ruby ssl
-www-client/ruby adblocker savedconfig
-
 # Discord
 app-crypt/gcr gtk
 
